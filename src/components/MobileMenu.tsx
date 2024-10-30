@@ -10,21 +10,21 @@ const MobileMenu = () => {
 	return (
 		<div className='md:hidden'>
 			<div
-				className='flex flex-col gap-[8px] cursor-pointer'
+				className='flex flex-col gap-[6px] cursor-pointer'
 				onClick={() => setIsOpen(!isOpen)}
 			>
 				<div
-					className={`w-8 h-1 bg-blue-500 rounded-sm ${
+					className={`w-7 h-1 bg-blue-500 rounded-sm ${
 						isOpen ? 'rotate-45' : ''
 					} origin-left ease-in-out duration-500`}
 				/>
 				<div
-					className={`w-8 h-1 bg-blue-500 rounded-sm ${
+					className={`w-7 h-1 bg-blue-500 rounded-sm ${
 						isOpen ? 'opacity-0' : ''
 					} ease-in-out duration-500`}
 				/>
 				<div
-					className={`w-8 h-1 bg-blue-500 rounded-sm ${
+					className={`w-7 h-1 bg-blue-500 rounded-sm ${
 						isOpen ? '-rotate-45' : ''
 					} origin-left ease-in-out duration-500`}
 				/>
