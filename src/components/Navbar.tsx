@@ -32,7 +32,7 @@ const Navbar = () => {
 										alt={title}
 										width={16}
 										height={16}
-										className='flex items-center h-auto'
+										className='flex items-center w-auto'
 									/>
 									<span>{title}</span>
 								</Link>
