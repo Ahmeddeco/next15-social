@@ -3,7 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const UserMediaCard = ({ userId }: { userId?: string }) => {
+// { userId }: { userId?: string }
+
+const UserMediaCard = () => {
 	return (
 		<div className='p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4'>
 			{/* top */}
@@ -22,7 +24,7 @@ const UserMediaCard = ({ userId }: { userId?: string }) => {
 								src={img}
 								alt={'man'}
 								fill
-								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+								sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
 								className='object-cover rounded-md'
 							/>
 						</div>
