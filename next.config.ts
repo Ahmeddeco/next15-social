@@ -1,9 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    reactCompiler: true,
-    ppr: 'incremental'
-  },
+import type { NextConfig } from "next"
+
+const nextConfig: NextConfig = {
+  /* config options here */
+
   images: {
     remotePatterns: [
       {
