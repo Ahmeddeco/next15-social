@@ -1,11 +1,11 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { userMedia } from '@/constant'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-// { userId }: { userId?: string }
 
-const UserMediaCard = () => {
+const UserMediaCard = ({ userId }: { userId?: string }) => {
 	return (
 		<div className='p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4'>
 			{/* top */}
